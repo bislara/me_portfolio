@@ -2,7 +2,7 @@
 
 We love contributions from everyone.
 By participating in this project,
-you agree to abide by the [code of conduct](https://github.com/<user-or-organisation-name>/<repo-name>/blob/master/CODE_OF_CONDUCT.md)
+you agree to abide by the [code of conduct](https://github.com/bislara/my_portfolio/blob/master/CODE_OF_CONDUCT.md)
 
 We expect everyone to follow the code of conduct
 anywhere in this project codebases,
@@ -14,7 +14,7 @@ Below are the steps to be followed to contribute to the repository. Lets togethe
 
 ### 1. Find an issue or Create your own issue
 
-- Take a look at the Existing issues or create your own issues! [Link](https://github.com/<user-or-organisation-name>/<repo-name>/issues) 
+- Take a look at the Existing issues or create your own issues! [Link](https://github.com/bislara/my_portfolio/issues) 
 - Comment on the issue.
 - Wait for the admin to assign the issue to you after which you can start working on it.
 
@@ -26,12 +26,12 @@ Note : Your PR will only be approved if you are assigned to that issue. Also, ev
 - Clone the repository into your system using the below command
 
 ```
-$ git clone https://github.com/<your-username>/<repo-name>
+$ git clone https://github.com/<your-username>/my_portfolio
 ```
-Now, let's add a reference to the original [Repository](https://github.com/<user-or-organisation-name>/<repo-name>) repository using
+Now, let's add a reference to the original [Repository](https://github.com/bislara/my_portfolio) repository using
 
 ```sh
-$ git remote add upstream https://github.com/<user-or-organisation-name>/<repo-name>.git
+$ git remote add upstream https://github.com/bislara/my_portfolio.git
 ```
 
 > This adds a new remote named ***upstream***.
@@ -47,7 +47,7 @@ $ git rebase upstream/<branch-name>
 ### 3. Branch
 Create a new branch. Follow the branch creation rule. 
 #### BRANCH CREATION RULE
-* Go to [this](https://github.com/<user-or-organisation-name>/<repo-name>/issues) link and see the issues created by you or assigned to you.
+* Go to [this](https://github.com/bislara/my_portfolio/issues) link and see the issues created by you or assigned to you.
 * Create a new branch for each issue in your forked repository.
 * The name of your branch should follow the following rule: **[ISSUE NO #]-[SUITABLE NAME ACCORDING TO THE TITLE OF THE ISSUE(all lowercase letters and words separated by a hyphen(-))]**.
 * That is, if the *TITLE* of the issue **#8** is **Dashboard - Development for Hospital**, then the branch name should be **8-hospital-dashboard**
