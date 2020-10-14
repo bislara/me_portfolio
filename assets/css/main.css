@@ -873,8 +873,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  .dark-theme .skill-bars li strong,
  .dark-theme #resume .timeline-header p,
  .dark-theme #resume .timeline-content,
- .dark-theme #about a:visited{
+ .dark-theme #about a:visited,
+ .dark-theme #resume a:visited{
 	 color: #eee; 
+ }
+ .dark-theme #about a:hover,
+ .dark-theme #resume a:hover{
+	color: #FF0077;
  }
  .dark-theme .skill-bars li .progress,
  .dark-theme #resume .timeline-content h4::after{
