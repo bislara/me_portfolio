@@ -848,6 +848,36 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	content: counter(definitions, decimal) ". ";
 }
 
+/**
+ * dark theme
+ */
+ 
+ .dark-theme #about,
+ .dark-theme #portfolio{
+	 background: #151515;;
+ }
+ .dark-theme .pull-quote:before,
+ .dark-theme .pull-quote:after,
+ .dark-theme .section-intro h1,
+ .dark-theme #about .section-intro p,
+ .dark-theme #about .section-intro cite,
+ .dark-theme #about h3,
+ .dark-theme .about-content .info-list li strong{
+	 color: #ffffff;
+ }
+ 
+ .dark-theme .about-content .info-list li span,
+ .dark-theme .skill-bars li strong{
+	 color: #eee; 
+ }
+ .dark-theme .skill-bars li .progress{
+	 background: #eee; 
+ }
+ 
+ .dark-theme .skill-bars li {
+	 background: #3e3d3d;
+ }
+
 /** 
  * Pull Quotes
  * -----------
