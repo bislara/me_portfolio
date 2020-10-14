@@ -159,6 +159,15 @@
    	     
   	});
 
+	/*-----------------------------------------------------*/
+  	/* Different color themes toggle
+   ------------------------------------------------------ */
+   
+   const tog = document.querySelector(".toggle");
+
+		tog.addEventListener("click", function () {
+		document.body.classList.toggle("dark-theme");
+	});
 
    /*---------------------------------------------------- */
   	/* Highlight the current section in the navigation bar

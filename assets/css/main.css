@@ -849,6 +849,47 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 /**
+ * dark theme
+ */
+ .dark-theme #about,
+ .dark-theme #portfolio{
+	 background: #151515;
+ }
+ .dark-theme .grey-section{
+	 background: #1a1a1a;
+ }
+ .dark-theme .pull-quote:before,
+ .dark-theme .pull-quote:after,
+ .dark-theme .section-intro h1,
+ .dark-theme #about .section-intro p,
+ .dark-theme #about .section-intro cite,
+ .dark-theme #about h3,
+ .dark-theme .about-content .info-list li strong,
+ .dark-theme #resume h3,
+ .dark-theme #resume h4{
+	 color: #ffffff;
+ }
+ .dark-theme .about-content .info-list li span,
+ .dark-theme .skill-bars li strong,
+ .dark-theme #resume .timeline-header p,
+ .dark-theme #resume .timeline-content,
+ .dark-theme #about a:visited,
+ .dark-theme #resume a:visited{
+	 color: #eee; 
+ }
+ .dark-theme #about a:hover,
+ .dark-theme #resume a:hover{
+	color: #FF0077;
+ }
+ .dark-theme .skill-bars li .progress,
+ .dark-theme #resume .timeline-content h4::after{
+	 background: #eee; 
+ }
+ .dark-theme .skill-bars li {
+	 background: #3e3d3d;
+ }
+
+/**
  * scroll bar
  */
  
@@ -1139,7 +1180,13 @@ header .logo a {
 	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
 }
-
+header .toggle{
+	font-size: 50px; 
+	color: #ffffff;  
+	position: absolute;
+	right: 90px; 
+	top: 10px;
+}
 /**
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
@@ -1282,24 +1329,36 @@ header .logo a {
  * header styles
  * --------------------------------------------------------------- 
  */
-@media only screen and (max-width:1024px) {
+ @media only screen and (max-width:1024px) {
 	header .top-bar {
 		left: 60px;
+	}
+	header .toggle{
+		right: 80px;
 	}
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
 		left: 50px;
 	}
+	header .toggle{
+		right: 50px;
+	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
 		left: 35px;
 	}
+	header .toggle{
+		right: 35px;
+	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
 		left: 25px;
+	}
+	header .toggle{
+		right: 25px;
 	}
 }
 
