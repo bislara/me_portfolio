@@ -1181,11 +1181,11 @@ header .logo a {
 	background-size: 92px 15px;
 }
 header .toggle{
-	font-size: 50px; 
-	color: #ffffff;  
+	font-size: 40px; 
+	/* color: #ffffff;   */
 	position: absolute;
-	right: 90px; 
-	top: 10px;
+	right: 1px; 
+	top: 20px;
 }
 /**
  * menu toggle - (_layout.css)
@@ -1334,7 +1334,7 @@ header .toggle{
 		left: 60px;
 	}
 	header .toggle{
-		right: 80px;
+		right: 22px;
 	}
 }
 @media only screen and (max-width:768px) {
@@ -1350,7 +1350,7 @@ header .toggle{
 		left: 35px;
 	}
 	header .toggle{
-		right: 35px;
+		right: 20px;
 	}
 }
 @media only screen and (max-width:400px) {
